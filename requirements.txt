@@ -1,0 +1,7 @@
+aiosqlite==0.17.0
+asyncqt~=0.8.0
+PyQt5==5.15.6
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.10.1
+pandas==1.5.3
+openpyxl==3.0.10
