@@ -5,7 +5,7 @@ This application is written on the [PyQt5](https://pypi.org/project/PyQt5/) appl
 ###### The application allows you to manage the supplies:
 - Keep
 - Edit
-- Delete![img.png](img.png)
+- Delete
 - Download 
 
 ## Development
@@ -23,6 +23,11 @@ This application is written on the [PyQt5](https://pypi.org/project/PyQt5/) appl
 - The processing of the cocktail file is located in SystemCRM
 - Creating and configuring a gui is located in the GuiApp folder
 - The application is launched in a file main.py
+
+### Run project
+
+- Install requirements.txt
+- Run file main.py
 
 ## Author
 - Pogulaev Fedor
