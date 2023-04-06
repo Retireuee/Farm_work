@@ -1,40 +1,40 @@
 # Система контроля и управления крупным сельскохозяйственным предприятием
-This application is written on the [PyQt5](https://pypi.org/project/PyQt5/) application toolkit.
+Программа написана с помощью библиотеки [PyQt5](https://pypi.org/project/PyQt5/) для создания приложений с визуальным интерфейсом.
 
-## What this application can do?
-###### The application allows you to manage the supplies:
-- Keep
-- Edit
-- Delete
-- Download 
+## На что способна данная программа?
+###### Данное приложение позволяет вам управлять базой данных:
+- Сохранять данные 
+- Редактировать данные
+- Удалять данные
 
-## Development
+## Разработка
 
-### System dependencies
+### Системные зависимости
 
 - Python 3.10
 
-### Setup environment
+### Установка окружения
 
-- Installing the PyQt5 module -pip install PyQt5
+- Установите модуль PyQt5 с помощью команды -pip install PyQt5
+- Установите модуль aiosqlite с помощью команды -pip install aiosqlite
+- Установите модуль asyncqt с помощью команды-pip install asyncqt
+- Запустите файл main.py 
 
-### Project structure
 
-- The processing of the cocktail file is located in SystemCRM
-- Creating and configuring a gui is located in the GuiApp folder
-- The application is launched in a file main.py
+### Структура проекта
 
-### Run project
+- Основная логика приложения содержится в файле SystemCRM
+- Создание и настройка UI находится в папке GuiApp 
+- Приложение запускается через файл main.py
 
-- Install requirements.txt
-- Run file main.py
 
-## Author
-- Pogulaev Fedor
+### Запуск программы
 
-## License
-- This project is licensed under the MIT License - see the [LICENSE](ссылка) file for details
+- Установите зависимости из файла requirements.txt
+- Запустите файл main.py
 
-## Gratitude
-- Inspiration to all
-- Successful developments
+## Автор
+- Погуляев Федор
+
+## Лицензия
+- Этот проект лицензирован по лицензии MIT License. Смотрите подробности в [LICENSE](https://github.com/wendiia/course_work/blob/master/LICENSE) файле
